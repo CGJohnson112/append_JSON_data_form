@@ -63,6 +63,7 @@
     <title>Sola Hair Salon: Add Ratings</title>
 </head>
 <body>
+<button type="submit" name="submit" onclick="window.location.href='ratings.json'" target="_blank" class="btn">Check out the JSON data</button>
 <div class="container">
 <h3>What did you think of your visit?</h3>
 <form method="post">
@@ -74,6 +75,7 @@
         }  
 ?> 
 </div>
+
 <div class="form-group">
 
 <label for="date">Date visited</label>
@@ -119,6 +121,7 @@
 </div>
 
 <input type="submit" name="submit" value="Add Rating!" class="btn btn-info" /><br /> 
+
 
 <div>
 <?php  
